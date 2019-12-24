@@ -385,6 +385,7 @@ export default class TabBarVertical<T: *> extends React.Component<
             alwaysBounceHorizontal={false}
             scrollsToTop={false}
             showsHorizontalScrollIndicator={false}
+            showsVerticalScrollIndicator={false}
             automaticallyAdjustContentInsets={false}
             overScrollMode="never"
             contentContainerStyle={[
